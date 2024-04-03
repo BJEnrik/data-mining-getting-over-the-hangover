@@ -12,9 +12,9 @@ The team had developed this <b>Book Recommender System</b> based on the database
     <li>Author-Based Recommender System.</li>
 </ol>
 
-    In each way, the <b>COUNT VECTORIZER</b> and <b>TF-IDF VECTORIZER</b> were used to extract the <b>Top 5 Recommended Books</b>.
+In each way, the <b>COUNT VECTORIZER</b> and <b>TF-IDF VECTORIZER</b> were used to extract the <b>Top 5 Recommended Books</b>.
 
-    After developing this system, the team found that the TF-IDF is in general better than Count Vectorizers because it not only focuses on the frequency of words present in the corpus but also provides the importance of the words. We can then remove the words that are less important for analysis, hence making the model building less complex by reducing the input dimensions.
+After developing this system, the team found that the TF-IDF is in general better than Count Vectorizers because it not only focuses on the frequency of words present in the corpus but also provides the importance of the words. We can then remove the words that are less important for analysis, hence making the model building less complex by reducing the input dimensions.
 </span>
 
 <h1 style="color:#000000">II. Problem Statement</h1>
