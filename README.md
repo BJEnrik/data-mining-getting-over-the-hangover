@@ -3,14 +3,14 @@
 <span style="font-size: 20px">
     A <b>'book hangover'</b> is typically a common phenomenon that book lovers feel especially when they have read an especially good and relatable book (mostly fiction). It is a phenomenon that conjures the sadness and melancholy feelings of a reader, which if not treated immediately, may at worst affect an individual's way of life for a short period of time. A solution to mitigate this feeling is to veer the reader away from the previously read book that triggered the hangover -- by recommending the next book based on it.
 
-    <b> The goal of this system is to recommend the next top 5 books based from the previously read book in order to help the affected reader to relieve him or herself from going deep into the book hangover.</b>
+<b> The goal of this system is to recommend the next top 5 books based from the previously read book in order to help the affected reader to relieve him or herself from going deep into the book hangover.</b>
 
-    The team had developed this <b>Book Recommender System</b> based on the database taken from the `New York Times - Books API`. There are three(3) ways for a reader to search for the top 5 recommended books:
-    <ol>
-        <li>Content-Based Recommender System;</li>&nbsp;  
-        <li>Description-Based Recommender System; and</li>&nbsp;  
-        <li>Author-Based Recommender System.</li>&nbsp;  
-    </ol>
+The team had developed this <b>Book Recommender System</b> based on the database taken from the `New York Times - Books API`. There are three(3) ways for a reader to search for the top 5 recommended books:
+<ol>
+    <li>Content-Based Recommender System;</li>&nbsp;  
+    <li>Description-Based Recommender System; and</li>&nbsp;  
+    <li>Author-Based Recommender System.</li>&nbsp;  
+</ol>
 
     In each way, the <b>COUNT VECTORIZER</b> and <b>TF-IDF VECTORIZER</b> were used to extract the <b>Top 5 Recommended Books</b>.
 
