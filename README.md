@@ -7,9 +7,9 @@
 
 The team had developed this <b>Book Recommender System</b> based on the database taken from the `New York Times - Books API`. There are three(3) ways for a reader to search for the top 5 recommended books:
 <ol>
-    <li>Content-Based Recommender System;</li>&nbsp;  
-    <li>Description-Based Recommender System; and</li>&nbsp;  
-    <li>Author-Based Recommender System.</li>&nbsp;  
+    <li>Content-Based Recommender System;</li>
+    <li>Description-Based Recommender System; and</li>
+    <li>Author-Based Recommender System.</li>
 </ol>
 
     In each way, the <b>COUNT VECTORIZER</b> and <b>TF-IDF VECTORIZER</b> were used to extract the <b>Top 5 Recommended Books</b>.
