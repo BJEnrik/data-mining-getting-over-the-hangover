@@ -27,20 +27,16 @@ After developing this system, the team found that the TF-IDF is in general bette
 
 <span style="font-size: 20px">According to an author from bookriot.com: <blockquote><span style="font-size: 18px"><i>"A <b>'book hangover'</b> is the slangy shortcut for the feeling when a reader finishes a book—usually fiction—and they can’t stop thinking about the fictional world that has run out of pages. The story is over, but the reader misses the characters or the atmosphere of the novel."<sup>1</sup></i></span></blockquote></span>
 
-<p>&nbsp;</p>
-
 <span style="font-size: 20px">It is a common phenomenon that the feeling of emptiness consumes bookworms after reading an especially good book. The feeling of sadness or separation anxiety could get worse to the point that it affects the reader's way of living for a short period. Of course, this is not something that anyone would want to happen. One way to get over a book hangover is to search for books similar to one that is previously read. It veers the reader slightly away from the world of the previous book, but not separated from it that the reader would deem it as something not worth reading. It must be similar to the previous one and at the same time fills in the void of that empty feeling.</span>
-    
-<p>&nbsp;</p>
 
 <span style="font-size: 20px">A reader does not have to feel so empty after finishing a good book after all. Hence, this Book Recommender system aims to present the next top 5 books based on a previously read book - to ultimately fill the void of a book hangover.</span>
 
 <h1 style="color:#000000">VII. Results and Discussion</h1>
 
-<span style="font-size: 20px"><b>Why should we use cosine similarity instead of $L_p$-norm?</b><p>&nbsp; </p> 
+<span style="font-size: 20px"><b>Why should we use cosine similarity instead of $L_p$-norm?</b>
 
 <span style="font-size: 16px">
-<b>$L_p$-norm</b> is basically the distance between two vectors or points. The $L_p$-norm between two vectors $\vec v_1$ and $\vec v_2$ is
+**$L_p$-norm** is basically the distance between two vectors or points. The $L_p$-norm between two vectors $\vec v_1$ and $\vec v_2$ is
 $$L_p(\vec v_1, \vec v_2) = \left(\sum_i \left| \vec v_{1_i} - \vec v_{2_i} \right|^p \right)^{1/p}$$
 
 If $p=2$, it is the usual Euclidean distance. If $p=1$, it is known as the city block or Manhattan distance.
@@ -57,7 +53,7 @@ For recommender systems, one of the most commonly used similarity measures is co
 </span>
 
 <span style="font-size: 20px"><b>Which is better? Count Vectorizer or TF-IDF Vectorizer?</b>
-<p>&nbsp; </p> 
+
 <span style="font-size: 16px">
 
 TF-IDF is in general better than Count Vectorizers because it not only focuses on the frequency of words present in the corpus but also provides the importance of the words. We can then remove the words that are less important for analysis, hence making the model building less complex by reducing the input dimensions.
@@ -65,8 +61,7 @@ TF-IDF is in general better than Count Vectorizers because it not only focuses o
 </span>
 
 <span style="font-size: 20px"><b>Can we adjust the sensitivity of information retrieval?</b>
-    
-<p>&nbsp; </p> 
+
 <span style="font-size: 16px">
     
 Yes. We can also adjust the sensitivity of information retrieval by tuning the min_df and max_df parameter of both the Count Vectorizer and Tf-Idf Vectorizer.
